@@ -1,0 +1,229 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #ffffff;
+  --navigation-color: #2196f3;
+  --dark-background-color: #2f303a;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--primary-text-color);
+}
+
+/* <!--Шапка сайта-- >  */
+
+.site-nav {
+  text-decoration: none;
+  color: var(--title-text-color);
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: black;
+}
+
+.logo-color {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--navigation-color);
+}
+
+ul {
+  list-style: none;
+}
+
+.navigation-link-main {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.navigation-link-current {
+  color: var(--navigation-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.contacts-link {
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.navigation-link-main:hover,
+.navigation-link-main:focus {
+  color: var(--navigation-color);
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--navigation-color);
+}
+
+/* <!--Hero-- >  */
+
+.hero-section {
+  background-color: var(--dark-background-color);
+}
+
+.title-hero {
+  color: var(--accent-color);
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.button-primary {
+  color: var(--accent-color);
+  background-color: #2196f3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* <!--Features--> */
+
+.features-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.title-color {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.feautures-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+/* <!--Activities-- > */
+
+.activities-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: Center;
+  letter-spacing: 0.03em;
+}
+
+.image-link {
+  text-decoration: none;
+  color: #757575;
+}
+
+.image-link:hover,
+.image-link:active {
+  color: var(--navigation-color);
+}
+/* <!--Team-- > */
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: Center;
+  letter-spacing: 0.03em;
+}
+
+.team-names {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.team-possition {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+/* <!--Footer-- > */
+
+.adress-section {
+  background-color: var(--dark-background-color);
+}
+
+.adress-text {
+  color: var(--accent-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.adress-logo {
+  color: var(--accent-color);
+}
+
+.text-color {
+  color: rgb(255, 255, 255, 0.6);
+}
+.adress-style {
+  font-style: normal;
+  text-decoration: none;
+}
+
+/* * <!--Works-- > */
+
+.button-secondary {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  font-family: inherit;
+}
+.button-secondary:hover,
+.button-secondary:focus {
+  background-color: #2196f3;
+}
+
+.works-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.works-title:hover,
+.works-title:focus {
+  color: var(--navigation-color);
+}
+
+.works-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
