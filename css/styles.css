@@ -248,6 +248,9 @@ p {
   color: var(--navigation-color);
 }
 /* <!--Team-- > */
+h3 {
+  margin: 0;
+}
 
 .team-section {
   background-color: #f5f4fa;
@@ -259,18 +262,21 @@ p {
   display: flex;
 }
 
+.team-item {
+  flex-basis: calc((100%-90px) / 4);
+}
+.team-item:not(:last-child) {
+  margin-left: 30px;
+}
+
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-.team-item {
-  display: flex;
-}
-
 .team-title {
-  margin-bottom: 50;
+  margin: 0 0 50px;
 
   font-weight: 700;
   font-size: 36px;
@@ -323,7 +329,6 @@ img {
 /* * <!--Works-- > */
 
 .button-secondary {
-  margin-bottom: 50px;
   border: transparent;
   padding-top: 6px;
   padding-bottom: 6px;
