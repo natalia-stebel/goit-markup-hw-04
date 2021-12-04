@@ -154,6 +154,7 @@ h3 {
 
 .button-primary {
   border-bottom: 4px;
+  border: transparent;
 
   color: var(--accent-color);
   background-color: #2196f3;
@@ -170,6 +171,8 @@ h3 {
 .features-section {
   padding-top: 94px;
   padding-bottom: 94px;
+  margin-left: 215 px;
+  margin-bottom: 215 px;
 }
 
 .features-title {
@@ -198,16 +201,15 @@ h3 {
 
 .feautures-list {
   display: flex;
-  margin-left: 30px;
-  margin-top: 30px;
 }
 
 .feautures-list-item {
   max-width: 270px;
 }
 
-.fuatures-list,
-.fuateres-list-item:not(:last-child) {
+.feautures-list,
+.feautures-text,
+.features-title .feautures-list-item:not(:last-child) {
   margin-left: 30;
 }
 
@@ -215,11 +217,20 @@ h3 {
 
 .activities-section {
   padding-bottom: 94px;
+  padding-left: 215px;
+  padding-right: 215px;
 }
 
 .activities-flex {
   display: flex;
-  max-width: 270px;
+}
+
+.img {
+  max-width: 370px;
+  height: auto;
+}
+.img:not(:last-child) {
+  margin-left: 30;
 }
 
 .activities-title {
@@ -247,8 +258,12 @@ h3 {
 
 .team-section {
   background-color: #f5f4fa;
-  padding-top: 94px;
   padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.team-flex {
+  display: flex;
 }
 
 .team-title {
@@ -306,6 +321,7 @@ h3 {
 
 .button-secondary {
   margin-bottom: 50px;
+  border: transparent;
 
   color: var(--title-text-color);
   background-color: #f5f4fa;
