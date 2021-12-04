@@ -126,13 +126,6 @@ ul {
   color: var(--navigation-color);
 }
 
-h1,
-h2,
-h3,
-p {
-  margin: 0;
-}
-
 /* <!--Hero-- >  */
 
 .hero-section {
@@ -156,6 +149,11 @@ p {
 .button-primary {
   border-bottom: 4px;
   border: transparent;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 4px;
 
   color: var(--accent-color);
   background-color: #2196f3;
@@ -169,14 +167,17 @@ p {
 
 /* <!--Features--> */
 
-.features-section {
+p {
+  margin: 0;
+}
+
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
-  margin-left: 215 px;
-  margin-bottom: 215 px;
 }
 
 .features-title {
+  display: flex;
   margin: 0;
   margin-bottom: 10px;
 
@@ -192,47 +193,39 @@ p {
   text-decoration: none;
 }
 
+.feautures-list {
+  display: flex;
+}
+
 .feautures-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  margin-bottom: 94;
 }
 
-.feautures-list {
-  display: flex;
-}
-
-.feautures-list-item {
-  max-width: 270px;
-}
-
-.feautures-list,
-.feautures-text,
-.features-title .feautures-list-item:not(:last-child) {
-  margin-left: 30;
+.feautures-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* <!--Activities-- > */
 
 .activities-section {
-  padding-bottom: 94px;
-  padding-left: 215px;
-  padding-right: 215px;
+  padding-top: 0;
 }
 
-.activities-flex {
-  display: block;
+.actvities {
+  display: flex;
 }
 
-.img {
+.activities-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+img {
   display: block;
   max-width: 100%;
   height: auto;
-}
-.img:not(:last-child) {
-  margin-left: 30;
 }
 
 .activities-title {
@@ -264,7 +257,13 @@ p {
   padding-top: 94px;
 }
 
-.team-flex {
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.team-item {
   display: flex;
 }
 
@@ -324,6 +323,11 @@ p {
 .button-secondary {
   margin-bottom: 50px;
   border: transparent;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
+  border-radius: 4px;
 
   color: var(--title-text-color);
   background-color: #f5f4fa;
