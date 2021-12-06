@@ -202,6 +202,10 @@ ul {
   letter-spacing: 0.03em;
 }
 
+.feautures-item {
+  flex-basis: calc((100% - 90px) / 4);
+}
+
 .feautures-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -317,6 +321,10 @@ img {
 .logo-brake-borders {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.logo-brake-borders li {
+  margin: 0 0 9px;
 }
 
 /* * <!--Works-- > */
