@@ -20,6 +20,15 @@ body {
   font-family: Roboto, sans-serif;
   color: var(--primary-text-color);
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 /* <!--Шапка сайта-- >  */
 
@@ -279,6 +288,8 @@ img {
 }
 
 .team-names {
+  margin-bottom: 10px;
+
   font-weight: 600;
   font-size: 16px;
   line-height: 1.2;
