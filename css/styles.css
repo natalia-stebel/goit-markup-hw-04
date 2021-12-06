@@ -329,6 +329,10 @@ img {
 
 /* * <!--Works-- > */
 
+h2 {
+  margin: 0;
+}
+
 .element-invisible {
   display: none;
 }
